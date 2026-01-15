@@ -1,4 +1,4 @@
-import './ExspenseDate.css'
+import './ExpenseDate.css'
 const ExpenseDate = (props) => {
 
    const day = props.date.toLocaleString('en-US', {day: '2-digit'})
